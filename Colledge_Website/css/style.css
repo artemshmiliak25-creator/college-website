@@ -1,0 +1,80 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fc;
+    color: #333;
+}
+
+.hero {
+    background: linear-gradient(135deg, #0d6efd, #063b8c);
+    padding: 110px 20px;
+}
+
+.hero h1 {
+    margin-bottom: 20px;
+}
+
+.section-title {
+    color: #0d6efd;
+    font-weight: bold;
+}
+
+.advantage-card {
+    border: none;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.advantage-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+}
+
+.specialty-card {
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: 0.3s;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.specialty-card:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+.specialty-card img {
+    height: 180px;
+    object-fit: cover;
+}
+
+.btn {
+    border-radius: 8px;
+}
+
+.footer {
+    background-color: #063b8c;
+    margin-top: 60px;
+}
+
+.navbar-brand {
+    letter-spacing: 0.5px;
+}
+
+.nav-link {
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #ffc107 !important;
+}
+
+.form-control {
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.form-control:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 5px rgba(13,110,253,0.3);
+}
